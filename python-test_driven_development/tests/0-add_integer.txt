@@ -1,1 +1,8 @@
-oi
+./0-main.py
+# Output attendu :
+3
+98
+100
+98
+b must be an integer
+a must be an integer
