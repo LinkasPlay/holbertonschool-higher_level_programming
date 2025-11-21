@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-This module defines an empty Square class.
+This module defines a Square class.
 """
 
 
 class Square:
     """
-    This class represents an empty square.
+    Represents a square.
     """
-    pass
+    pass # An empty block
