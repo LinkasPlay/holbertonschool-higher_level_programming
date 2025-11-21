@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-This module defines an empty Square class for geometry-related operations.
+This module defines an empty Square class.
 """
 
 
 class Square:
     """
-    This class defines a square and will be expanded in future tasks.
+    This class represents an empty square.
     """
     pass
