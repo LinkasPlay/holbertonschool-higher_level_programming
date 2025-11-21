@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 """
-This module contains a function that adds two integers
-after validating their types and casting floats to integers.
+This module defines a function add_integer that adds two numbers.
+It validates the types of the inputs, casts floats to integers,
+and raises a TypeError if the inputs are not integers or floats.
 """
 
 
 def add_integer(a, b=98):
     """
-    Adds two integers after type checking and casting floats to integers.
+    Adds two integers after validating their types and casting floats to integers.
 
     Args:
         a (int or float): The first number to add.
@@ -23,5 +24,4 @@ def add_integer(a, b=98):
         raise TypeError("a must be an integer")
     if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
-
     return int(a) + int(b)
